@@ -12,8 +12,8 @@ class CalcTest {
 
 	@BeforeEach
 	void init() {
-		n1 = (int)(Math.random()*10);
-		n2 = (int)(Math.random()*10);
+		n1 = (int)(Math.random()*1000);
+		n2 = (int)(Math.random()*1000);
 		sum = n1 + n2;
 	}
 	
